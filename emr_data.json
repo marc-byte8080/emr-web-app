@@ -1,0 +1,122 @@
+{
+  "ML-2026-001": {
+    "registration": {
+      "Patient Name": "Marie Lopez",
+      "Age": "27 years old",
+      "Sex": "Female",
+      "Civil Status": "In a long-term relationship",
+      "Address": "Confidential – Simulation",
+      "Date of Admission": "Feb 5, 2026",
+      "Time of Admission": "08:45 AM",
+      "Chief Complaint": "Left lower abdominal pain",
+      "Admitting Diagnosis": "Acute pelvic pain, rule out ovarian cyst/gynecologic cause",
+      "Allergies": "NKA",
+      "Attending Physician": "On-duty MD"
+      
+    },
+    "problem_list": [
+      "Acute Pain",
+      "Acute abdominal pain (improving per patient report)"
+    ],
+    "health_assessment": {
+      "General Appearance": "Awake, alert, not in acute distress.",
+      "Neurologic (LOC/GCS)": "Awake/alert; GCS: Not indicated (No data provided).",
+      "Respiratory": "RR 16 cpm; other respiratory assessment: No data provided.",
+      "Cardiovascular": "HR 76 bpm; BP 122/70; other CV assessment: No data provided.",
+      "Gastrointestinal": "Abdomen slightly distended; tenderness suprapubic & left iliac fossa; mild rebound tenderness; no guarding; no palpable masses.",
+      "Genitourinary": "Denies urinary symptoms; other GU data: No data provided.",
+      "Musculoskeletal": "No data provided.",
+      "Skin Integrity": "No data provided.",
+      "Pain": "Left iliac fossa/LLQ pain; Pain score 3/10 at time of assessment."
+    },
+    "vitals": [
+      {
+        "Date/Time": "Feb 5, 2026 – Initial assessment (time not indicated)",
+        "BP": "122/70 mmHg",
+        "Temp": "37.8 °C",
+        "PR": "76 bpm",
+        "RR": "16 cpm",
+        "SpO2": "Not indicated (No data provided)"
+      }
+    ],
+    "io": {
+      "Oral Intake": "No data provided.",
+      "IV Fluids": "PNSS 1 liter IV, KVO (rate not indicated).",
+      "Urine Output": "No data provided.",
+      "Stool Output": "No data provided."
+    },
+    "meds": [
+      {
+        "Generic Name": "0.9% Sodium Chloride (PNSS)",
+        "Dose": "1 liter",
+        "Route": "IV",
+        "Frequency": "KVO",
+        "Indication": "Maintain IV access / hydration support as ordered.",
+        "Nursing Considerations": "Monitor IV site; monitor for fluid overload as indicated."
+      }
+    ],
+    "labs": [
+      { "Test": "Complete Blood Count (CBC)", "Date Requested": "Feb 5, 2026", "Result": "Pending / No data provided" },
+      { "Test": "Serum β-hCG (Pregnancy Test)", "Date Requested": "Feb 5, 2026", "Result": "Pending / No data provided" },
+      { "Test": "Urinalysis", "Date Requested": "Feb 5, 2026", "Result": "Pending / No data provided" },
+      { "Test": "Blood Typing and Rh Factor", "Date Requested": "Feb 5, 2026", "Result": "Pending / No data provided" }
+    ],
+    "imaging": [
+      { "Type": "Transvaginal Ultrasound (UTZ)", "Date Ordered": "Feb 5, 2026", "Result": "Pending official reading" }
+    ],
+    "mar": [
+      {
+        "Date/Time": "Not indicated (No data provided)",
+        "Medication": "PNSS 0.9% NaCl",
+        "Dose": "1 liter",
+        "Route": "IV",
+        "Nurse Initials": "Not indicated",
+        "Remarks": "KVO as ordered; no further administration data provided."
+      }
+    ],
+    "nursing_notes": {
+      "Format": "SOAP",
+      "S": "Reports LLQ/left iliac fossa pain; nausea and loss of appetite prior to admission. Denies vaginal bleeding/discharge; denies urinary/bowel symptoms.",
+      "O": "Awake, alert, not in acute distress. Pain score 3/10. Abdomen slightly distended; tenderness suprapubic & left iliac fossa; mild rebound; no guarding.",
+      "A": "Probable ruptured ovarian cyst; acute abdominal pain (improving per patient report).",
+      "P": "Monitor VS; ensure PNSS KVO per MD order; provide comfort measures; prepare for labs & UTZ; ongoing assessment.",
+      "End-of-Shift": "Stable; pain improved per report; diagnostics pending."
+    },
+    "ncp": {
+      "Diagnosis (NANDA)": "Acute Pain related to inflammatory/gynecologic process as evidenced by verbal reports of left lower abdominal pain and abdominal tenderness",
+      "Cues (S/O)": "S: Reports sudden onset left iliac fosa pain; Pain initially severe, now 3/10; Associated nausea; and loss of appetite. O: tenderness LLQ/suprapubic; mild rebound; pain 3/10 at assessment.",
+      "Goals": "Short Term: Patient will report decreased pain <2/10 within 8 hrs. Long Term: Patient will demonstrate comfort and ability to perform activities without significant pain before discharge.",
+      "Interventions/Rationale": [
+        "Assess pain characteristics every 4 hours. To monitor progression and effectiveness of interventions.",
+        "Monitor vital signs regularly. Maintain PNSS KVO as ordered to support IV access while diagnostics are ongoing.",
+        "Encourage semiFowler’s position. Promotes abdominal muscle relaxation andcomfort.",
+        "Administer prescribed analgesics as ordered.Relieves pain and improves comfort. .",
+        "Educate patient to report worsening pain immediately.Early detection of complications."
+      ],
+      "Evaluation": "Short-term goal met within the shift. After 8 hours of nursing interventions, the patient reported decreased pain from 3/10 to 1-2/10. She appeared more relaxed, tolerated oral intake, and maintained stable vital signs; continue monitoring. Long-term Goal met, after 3 days of hospitalization, the patient demonstrated sustained pain control, ambulated without significant discomfort, and verbalized understanding of warning signs that require medical consultation."
+    },
+    "health_teaching": {
+      "Topic": "Condition overview (possible ovarian cyst rupture), diagnostics (labs/UTZ), warning signs to report.",
+      "Method": "Verbal instruction; Question-and-answer discussion",
+      "Response": "Verbalized understanding of her condition, the need for diagnostic tests, and warning signs to monitor. Patient was able to repeat back danger signs and agreed to comply with medical instructions and follow-up care."
+    },
+    "discharge_planning": {
+      "Medications": "Paracetamol 500mg, take 1-2 tabs every 4 hours as needed for pain relief. Progesterone-only oral contraceptive pill continue current regimen  as prescribed to help manage symptoms and reduce risk of recurrent gynecologic-related pain episodes",
+      "Diet": "Resume regular, balanced diet with emphasis on high fiber foods and adequate fluid intake to support digestive health and hydration",
+      "Activity": "Rest at home for the first 1-2 days post-discharge, then increase activity level slowly as pain improves. Avoid heavy lifting, strenuous exercises, or intense physical activities for 1 week to allow tissues to heal",
+      "Follow-up": "Schedule a follow-up visit with your gynecologist within 1 week to review results of laboratory tests and transvaginal ultrasound, assess pain resolution, and plan further management if needed",
+      "Seek Help If": "Pain becomes severe, worsens, or spread to other areas of the abdomen. Heavy vaginal bleeding or abnormal vaginal discharge develops. Persistent nausea, vomiting, or signs of dehydration."
+    },
+    "flowsheet": [
+      {
+        "Date/Time": "Feb 5, 2026 09:00",
+        "Temp": "37.8",
+        "PR": "76",
+        "RR": "16",
+        "BP": "122/70",
+        "Pain": "3",
+        "Notes": "Initial assessment; stable. Awaiting diagnostics."
+      }
+    ]
+  }
+}
