@@ -1,4 +1,4 @@
-{
+
   "ML-2026-001": {
     "registration": {
       "Patient Name": "Marie Lopez",
@@ -9,12 +9,13 @@
       "Date of Admission": "Feb 5, 2026",
       "Time of Admission": "08:45 AM",
       "Chief Complaint": "Left lower abdominal pain",
-      "Admitting Diagnosis": "Probable Ruptured Ovarian Cyst",
+      "Admitting Diagnosis": "Acute pelvic pain, rule out ovarian cyst/gynecologic cause",
       "Allergies": "NKA",
       "Attending Physician": "On-duty MD"
+      
     },
     "problem_list": [
-      "Probable ruptured ovarian cyst",
+      "Acute Pain",
       "Acute abdominal pain (improving per patient report)"
     ],
     "health_assessment": {
@@ -82,21 +83,22 @@
       "End-of-Shift": "Stable; pain improved per report; diagnostics pending."
     },
     "ncp": {
-      "Diagnosis (NANDA)": "Acute Pain r/t suspected ovarian cyst rupture AEB LLQ pain and abdominal tenderness.",
-      "Cues (S/O)": "S: sudden LLQ pain, nausea, anorexia. O: tenderness LLQ/suprapubic; mild rebound; pain 3/10 at assessment.",
-      "Goals": "Patient will report decreased pain and maintain stable VS while awaiting diagnostic results.",
+      "Diagnosis (NANDA)": "Acute Pain related to inflammatory/gynecologic process as evidenced by verbal reports of left lower abdominal pain and abdominal tenderness",
+      "Cues (S/O)": "S: Reports sudden onset left iliac fosa pain; Pain initially severe, now 3/10; Associated nausea; and loss of appetite. O: tenderness LLQ/suprapubic; mild rebound; pain 3/10 at assessment.",
+      "Goals": "Short Term: Patient will report decreased pain <2/10 within 8 hrs. Long Term: Patient will demonstrate comfort and ability to perform activities without significant pain before discharge.",
       "Interventions/Rationale": [
-        "Assess pain regularly to evaluate trends and response to comfort measures.",
-        "Maintain PNSS KVO as ordered to support IV access while diagnostics are ongoing.",
-        "Promote comfort positioning and reduce stimuli to help decrease pain perception.",
-        "Monitor VS and abdominal findings for worsening pain or instability."
+        "Assess pain characteristics every 4 hours. To monitor progression and effectiveness of interventions.",
+        "Monitor vital signs regularly. Maintain PNSS KVO as ordered to support IV access while diagnostics are ongoing.",
+        "Encourage semiFowler’s position. Promotes abdominal muscle relaxation andcomfort.",
+        "Administer prescribed analgesics as ordered.Relieves pain and improves comfort. .",
+        "Educate patient to report worsening pain immediately.Early detection of complications."
       ],
-      "Evaluation": "Partially met: pain improved compared with initial episode; continue monitoring."
+      "Evaluation": "Short-term goal met within the shift. After 8 hours of nursing interventions, the patient reported decreased pain from 3/10 to 1-2/10. She appeared more relaxed, tolerated oral intake, and maintained stable vital signs; continue monitoring. Long-term Goal met, after 3 days of hospitalization, the patient demonstrated sustained pain control, ambulated without significant discomfort, and verbalized understanding of warning signs that require medical consultation."
     },
     "health_teaching": {
       "Topic": "Condition overview (possible ovarian cyst rupture), diagnostics (labs/UTZ), warning signs to report.",
-      "Method": "Verbal instruction.",
-      "Response": "Verbalized understanding; teach-back: Not indicated (No data provided)."
+      "Method": "Verbal instruction; Question-and-answer discussion",
+      "Response": "Verbalized understanding of her condition, the need for diagnostic tests, and warning signs to monitor. Patient was able to repeat back danger signs and agreed to comply with medical instructions and follow-up care."
     },
     "discharge_planning": {
       "Medications": "Not indicated (No data provided).",
@@ -118,3 +120,4 @@
     ]
   }
 }
+
